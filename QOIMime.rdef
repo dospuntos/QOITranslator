@@ -1,0 +1,16 @@
+resource(0, "BEOS:TYPE") #'MIMS' "application/x-vnd.Be-meta-mime";
+
+resource(1, "META:TYPE") "image/qoi";
+
+resource(2, "META:SNIFF_RULE") "0.80 [0](\"qoif\")";
+
+resource(3, "META:S:DESC") #'MSDC' "QOI image";
+
+resource(4, "META:L:DESC") #'MSDC' "Quite OK Image Format (QOI)";
+
+resource(5, "META:PREF_APP") #'MIMS' "application/x-vnd.Haiku-ShowImage";
+
+resource(6, "META:EXTENS") message(234) {
+	"extensions" = "qoi",
+	"type" = "image/qoi"
+};
