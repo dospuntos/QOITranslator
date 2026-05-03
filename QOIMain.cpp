@@ -1,6 +1,6 @@
 /*
  * QOIMain.cpp – QOI image translator for Haiku
- * Version 0.2.0 (May 2026)
+ * Version 1.0.0 (May 2026)
  *
  * Copyright (c) 2026 Johan Wagenheim <johan@dospuntos.no>
  *

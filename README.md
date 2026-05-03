@@ -1,11 +1,10 @@
 # QOI image translator for Haiku
 
-This is a Haiku image translator for QOI images, allowing them to be opened in Haiku applications that support the Translation Kit.
+This is a Haiku image translator for QOI images, allowing them to be opened and saved in Haiku applications that support the Translation Kit.
 
 QOI (Quite OK Image Format) is a fast, lossless image format designed as a simpler alternative to PNG.
 
-- Currently supports reading (decoding) only, writing is not yet implemented.
-- QOI images for testing can be found at https://qoiformat.org/
+QOI images for testing can be found at https://qoiformat.org/
 
 ## Installation
 

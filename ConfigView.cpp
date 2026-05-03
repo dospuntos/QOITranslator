@@ -35,7 +35,7 @@ ConfigView::ConfigView(uint32 flags)
 	BStringView* versionView = new BStringView("version", version);
 
 	BStringView* copyrightView
-		= new BStringView("copyright", B_UTF8_COPYRIGHT "2026 Johan Wagenheim");
+		= new BStringView("copyright ", B_UTF8_COPYRIGHT " 2026 Johan Wagenheim");
 
 	BString qoiInfo = B_TRANSLATE("Based on QOI (Quite OK Image) implementation");
 	BStringView* copyrightView2 = new BStringView("copyright2", qoiInfo.String());
